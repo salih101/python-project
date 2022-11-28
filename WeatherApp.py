@@ -7,7 +7,7 @@ url ='https://weather.com/en-IN/weather/today/l/aedafa26444d6995ab6ac961b7d22514
 
 layout =[  [sg.Push(),sg.Text('Weather App',font="_14"),sg.Push()],
             [sg.Text('',key="location")],
-            [sg.Push(),sg.Text('Temperature:'),sg.Text('',key="weather",font="_14"),sg.Push()],
+            [sg.Push(),sg.Text('Temperature(°C):'),sg.Text('',key="weather",font="_14"),sg.Push()],
             [sg.Push(),sg.Button('Update'),sg.Button('Exit'),sg.Push()]
         ]
     
